@@ -1,0 +1,1 @@
+Know how to protect data(check for validity of data) (on the photo)
