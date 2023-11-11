@@ -42,7 +42,8 @@ int main(int argc, char** argv){
             err=scanf("%s%s", name, surname);
         }while(isError(err,2));
         
-        getline(&adress, &foo, stdin);
+        fgets(adress, foo, stdin);
+
         assignString(students[3*i], name);
         assignString(students[3*i+1], surname);
         assignString(students[3*i+2], adress);
