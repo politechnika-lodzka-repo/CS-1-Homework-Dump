@@ -89,10 +89,10 @@ int main(int argc, char** argv){
     }
 
     printf("ef1: sum of numbers is: %f\n", ex1(nums, m));
-    (50);
+    ;
 
     printf("ex2: %f\n", ex2());
-    (50);
+    ;
 
     printf("ex3: enter number of numbers:\n");
     
@@ -114,7 +114,7 @@ int main(int argc, char** argv){
     }
 
     printf("ex3: variance: %f\nex3: deviance: %f\n", ex3(nums3, m), sqrt(ex3(nums3, m)));
-    (50);
+    ;
 
     printf("ex4: enter two numbers to form a range [a,b]: \n");
     int a,b;
@@ -127,10 +127,10 @@ int main(int argc, char** argv){
     sprintf(str, "%d", res);
 
     printf("ex4: do all the numbers satisfy the formula: %s\n", (res==0 ? "true" : str));
-    (50);
+    ;
 
     printf("ex5: %d\n", ex5());
-    (50);
+    ;
 
     printf("ex6: enter number series terminate by zero: \n");
 
@@ -155,7 +155,7 @@ int main(int argc, char** argv){
     }
 
     printf("ex5: avarage of positive numbers: %f\nex5: number of numbers with abs under 100: %d\n", sumOfPositive/cOfPositive, cOfModUnder100);
-    (50);
+    ;
 
 
     return 0;
